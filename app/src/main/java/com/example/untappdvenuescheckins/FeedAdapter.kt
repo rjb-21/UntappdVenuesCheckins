@@ -38,7 +38,6 @@ class FeedAdapter(
         val view: View
         val viewHolder: ViewHolder
         if (convertView == null) {
-//            list_item.xml.d(TAG, "getView called with null convertView")
             view = inflater.inflate(resource, parent, false)
             viewHolder = ViewHolder(view)
             view.tag = viewHolder

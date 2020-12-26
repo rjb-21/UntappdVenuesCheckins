@@ -44,7 +44,7 @@ class ParseApplications {
                                 "title" -> currentRecord.title = textValue
                                 "link" -> currentRecord.link = textValue
                                 "description" -> currentRecord.description = textValue
-                                "pubDate" -> currentRecord.pubDate = textValue
+                                "pubdate" -> currentRecord.pubDate = textValue
                             }
                             Log.d(TAG, "pubDate: ${applications} ")
                         }
